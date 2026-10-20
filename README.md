@@ -1,5 +1,9 @@
 # Heathkit Restoration Plans — Index
 
+![Heathkit SB-220 2 kW linear amplifier (left) and SB-110 6 m transceiver (right), with SB-220/221 parasitic suppressors and station documentation](images/sb220-sb110.jpg)
+
+*SB-220 linear amplifier and SB-110 6 m transceiver, awaiting restoration.*
+
 Restoration plans for Heathkit SB-line and HW-series amateur radio gear, plus the power supplies that run it. Each plan covers which parts fail with age, a phased restoration procedure, alignment or tune-up, symptom quick-references, maintenance schedules and sources. Every plan is checked against the original Heath assembly manual and cites its printed page numbers.
 
 Each repo holds the plan as pandoc markdown (`*-restoration-plan.md`), a rendered PDF and a README with the build command.
