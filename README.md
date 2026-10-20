@@ -14,6 +14,7 @@ Each repo holds the plan as pandoc markdown (`*-restoration-plan.md`), a rendere
 |---|---|---|---|
 | **SB-301** | HF receiver | [heathkit-sb301-restoration](https://github.com/usa4148/heathkit-sb301-restoration) | Rev. 2, checked against the Heath manual (595-946-01) |
 | **HW-101** | HF SSB/CW transceiver | [heathkit-hw101-restoration](https://github.com/usa4148/heathkit-hw101-restoration) | Rev. 2.2, checked against the Heath manual, plus the PS-23 and HP-23A manuals |
+| **SB-101** | HF SSB/CW transceiver (tube LMO) | [heathkit-sb101-restoration](https://github.com/usa4148/heathkit-sb101-restoration) | Rev. 1, checked against the Heath manual |
 | **SB-102** | HF SSB/CW transceiver | [heathkit-sb102-restoration](https://github.com/usa4148/heathkit-sb102-restoration) | Rev. 2.2, checked against the Heath manual (595-1058-06), plus the PS-23 and HP-23A manuals |
 | **SB-110 / SB-110A** | 6 m SSB/CW transceiver | [heathkit-sb110-restoration](https://github.com/usa4148/heathkit-sb110-restoration) | Rev. 2.2, checked against the SB-110A manual (595-1145-01), plus the PS-23 and HP-23A manuals |
 | **SB-220** | HF linear amplifier (2 × 3-500Z) | [heathkit-sb220-restoration](https://github.com/usa4148/heathkit-sb220-restoration) | Rev. 1, checked against the Heath manuals |
@@ -22,10 +23,11 @@ Each repo holds the plan as pandoc markdown (`*-restoration-plan.md`), a rendere
 
 ## Power supply quick-reference
 
-The HW-101, SB-102 and SB-110A all run from the HP-23 series or PS-23, but they need **different low-voltage B+ settings.**
+The SB-101, HW-101, SB-102 and SB-110A all run from the HP-23 series or PS-23, but they need **different low-voltage B+ settings.**
 
 | Rig | B+ needed | HP-23A setting | PS-23 setting | Bias |
 |---|---|---|---|---|
+| SB-101 | 300 V @ 150 mA | Switch **right** (350 VDC tap) | **350 VDC** internal wiring | Same as HW-101; leave power-plug pin 8 empty, don't jumper pins 9–10 |
 | HW-101 | 300 V @ 150 mA | Switch **right** (350 VDC tap) | **350 VDC** internal wiring | Fixed −130 V on pin 1; set on the transceiver (supply's bias control inoperative) |
 | SB-102 | 300 V @ 150 mA | Switch **right** (350 VDC tap) | **350 VDC** internal wiring | Same as HW-101 |
 | SB-110A | **250 V @ 100 mA** | Switch **left** (275 VDC tap) | **275 VDC** internal wiring | Same; −115 V needed |
