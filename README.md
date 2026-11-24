@@ -13,6 +13,7 @@ Each repo holds the plan as pandoc markdown (`*-restoration-plan.md`), a rendere
 | Equipment | Type | Repo | Status |
 |---|---|---|---|
 | **SB-301** | HF receiver | [heathkit-sb301-restoration](https://github.com/usa4148/heathkit-sb301-restoration) | Rev. 2, checked against the Heath manual (595-946-01) |
+| **SB-401** | HF SSB/CW transmitter (2 × 6146) | [heathkit-sb401-restoration](https://github.com/usa4148/heathkit-sb401-restoration) | Rev. 1.3, checked against the Heath manual (595-947) and the SB-401 service bulletins |
 | **HW-101** | HF SSB/CW transceiver | [heathkit-hw101-restoration](https://github.com/usa4148/heathkit-hw101-restoration) | Rev. 2.2, checked against the Heath manual, plus the PS-23 and HP-23A manuals |
 | **SB-101** | HF SSB/CW transceiver (tube LMO) | [heathkit-sb101-restoration](https://github.com/usa4148/heathkit-sb101-restoration) | Rev. 1, checked against the Heath manual |
 | **SB-102** | HF SSB/CW transceiver | [heathkit-sb102-restoration](https://github.com/usa4148/heathkit-sb102-restoration) | Rev. 2.2, checked against the Heath manual (595-1058-06), plus the PS-23 and HP-23A manuals |
@@ -36,7 +37,7 @@ If one supply is shared between rigs, **label the switch**, or rewire the PS-23 
 
 ## Safety
 
-Every unit here can kill. The supplies and transceivers carry about **700–850 V DC**, the SB-200 about **2.4 kV** and the SB-220 about **2.5–3 kV**. Charge stays on the filter capacitors after the equipment is unplugged.
+Every unit here can kill. The supplies, transceivers and the SB-401 transmitter carry about **700–850 V DC**, the SB-200 about **2.4 kV** and the SB-220 about **2.5–3 kV**. Charge stays on the filter capacitors after the equipment is unplugged.
 
 - Discharge every time, with a grounded bleeder stick, before putting your hands inside.
 - Bring restored gear up slowly on a variac.
